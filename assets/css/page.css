@@ -2,3 +2,9 @@ img {
   position: absolute;
 }
 
+span {
+  position: relative;
+  margin: -25px 15px 0px 0px;
+  text-shadow: 0px 0px 7px #ffffff;
+  font-size: 20px;
+}

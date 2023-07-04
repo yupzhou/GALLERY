@@ -129,6 +129,64 @@ function changeimg220912_2(){
 	  }
 }
 
+//221210 Kasumi
+function changeimg221210_1(){
+	var x = document.getElementById("1bg_s").value;
+	document.getElementById("1bg").src = x;
+	var x = document.getElementById("1z_s").value;
+	document.getElementById("1z").src = x;
+	var x = document.getElementById("1t_s").value;
+	document.getElementById("1t").src = x;
+	var x = document.getElementById("1r_s").value;
+	document.getElementById("1r").src = x;
+	var x = document.getElementById("1s_s").value;
+	document.getElementById("1s").src = x;
+	var x = document.getElementById("1tf_s").value;
+	document.getElementById("1tf").src = x;
+	var checkbox = document.getElementById('1sc_s');
+	var x = document.getElementById('1sc');
+	  if (checkbox.checked) {
+		x.src = 'assets/img/221210/sc.png';
+	  } else {
+	    x.src = 'assets/img/221210/none.png';
+	  } 
+	var checkbox = document.getElementById('1cap_s');
+	var x = document.getElementById('1cap');
+	  if (checkbox.checked) {
+		x.src = 'assets/img/221210/cap.png';
+	  } else {
+	    x.src = 'assets/img/221210/none.png';
+	  } 
+}
+
+function changeimg221210_2(){
+	var x = document.getElementById("2bg_s").value;
+	document.getElementById("2bg").src = x;
+	var x = document.getElementById("2z_s").value;
+	document.getElementById("2z").src = x;
+	var x = document.getElementById("2t_s").value;
+	document.getElementById("2t").src = x;
+	var x = document.getElementById("2r_s").value;
+	document.getElementById("2r").src = x;
+	var x = document.getElementById("2s_s").value;
+	document.getElementById("2s").src = x;
+	var x = document.getElementById("2tf_s").value;
+	document.getElementById("2tf").src = x;
+	var checkbox = document.getElementById('2sem_s');
+	var x = document.getElementById('2sem');
+	  if (checkbox.checked) {
+		x.src = 'assets/img/221210/sem.png';
+	  } else {
+	    x.src = 'assets/img/221210/none.png';
+	  } 
+	var checkbox = document.getElementById('2cap_s');
+	var x = document.getElementById('2cap');
+	  if (checkbox.checked) {
+		x.src = 'assets/img/221210/cap.png';
+	  } else {
+	    x.src = 'assets/img/221210/none.png';
+	  } 
+}
 
 //230404 Illya
 function changeimg230404_1(){

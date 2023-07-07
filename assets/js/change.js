@@ -25,6 +25,123 @@ function changeimg200624(){
 	  } 
 }
 
+//220803 Keqing
+function changeimg220803_1(){
+	var x = document.getElementById("1z_s").value;
+	document.getElementById("1z").src = x;
+	var x = document.getElementById("1t_s").value;
+	document.getElementById("1t").src = x;
+	var checkbox = document.getElementById('1rbq_s');
+	var x = document.getElementById('1rbq');
+	  if (checkbox.checked) {
+		x.src = 'assets/img/220803/rbq.png';
+	  } else {
+	    x.src = 'assets/img/220803/none.png';
+	  }
+	var checkbox = document.getElementById('1tu_s');
+	var x = document.getElementById('1tu');
+	  if (checkbox.checked) {
+		x.src = 'assets/img/220803/torn_u.png';
+	  } else {
+	    x.src = 'assets/img/220803/none.png';
+	  } 
+	var x = document.getElementById("1k_s").value;
+	document.getElementById("1k").src = x;
+	var x = document.getElementById("1s_s").value;
+	document.getElementById("1s").src = x;
+	var checkbox = document.getElementById('1rope_s');
+	var x = document.getElementById('1rope');
+	  if (checkbox.checked) {
+		x.src = 'assets/img/220803/rope.png';
+	  } else {
+	    x.src = 'assets/img/220803/none.png';
+	  } 
+	var x = document.getElementById("1c1_s").value;
+	document.getElementById("1c1").src = x;
+	var x = document.getElementById("1c2_s").value;
+	document.getElementById("1c2").src = x;
+	var x = document.getElementById("1luz_s").value;
+	document.getElementById("1luz").src = x;
+	var x = document.getElementById("1lut_s").value;
+	document.getElementById("1lut").src = x;
+	var x = document.getElementById("1lus_s").value;
+	document.getElementById("1lus").src = x;
+}
+
+function showLumine1() {
+			var x = document.getElementsByClassName("lumine1");
+			for (var i = 0; i < x.length; i++) {
+				if (x[i].style.display === "none") {
+					x[i].style.display = "block";
+				} else {
+					x[i].style.display = "none";
+				}
+			}
+		}
+
+function changeimg220803_2(){
+	var x = document.getElementById("2z_s").value;
+	document.getElementById("2z").src = x;
+	var x = document.getElementById("2t_s").value;
+	document.getElementById("2t").src = x;
+	var checkbox = document.getElementById('2rbq_s');
+	var x = document.getElementById('2rbq');
+	  if (checkbox.checked) {
+		x.src = 'assets/img/220803/rbq.png';
+	  } else {
+	    x.src = 'assets/img/220803/none.png';
+	  }
+	var checkbox = document.getElementById('2tu_s');
+	var x = document.getElementById('2tu');
+	  if (checkbox.checked) {
+		x.src = 'assets/img/220803/torn_u.png';
+	  } else {
+	    x.src = 'assets/img/220803/none.png';
+	  } 
+	var x = document.getElementById("2k_s").value;
+	document.getElementById("2k").src = x;
+	var x = document.getElementById("2c1_s").value;
+	document.getElementById("2c1").src = x;
+	var checkbox = document.getElementById('2c2_s');
+	var x = document.getElementById('2c2');
+	  if (checkbox.checked) {
+		x.src = 'assets/img/220803/c8_d.png';
+	  } else {
+	    x.src = 'assets/img/220803/none.png';
+	  } 
+	  var checkbox = document.getElementById('2sem_s');
+	  var x = document.getElementById('2sem');
+	    if (checkbox.checked) {
+	  	x.src = 'assets/img/220803/sem.png';
+	    } else {
+	      x.src = 'assets/img/220803/none.png';
+	    } 
+	var x = document.getElementById("2luz_s").value;
+	document.getElementById("2luz").src = x;
+	var x = document.getElementById("2lut_s").value;
+	document.getElementById("2lut").src = x;
+	  var checkbox = document.getElementById('2lusem_s');
+	  var x = document.getElementById('2lusem');
+	    if (checkbox.checked) {
+	  	x.src = 'assets/img/220803/lu_sem.png';
+	    } else {
+	      x.src = 'assets/img/220803/none.png';
+	    } 
+}
+
+function showLumine2() {
+			var x = document.getElementsByClassName("lumine2");
+			for (var i = 0; i < x.length; i++) {
+				if (x[i].style.display === "none") {
+					x[i].style.display = "block";
+				} else {
+					x[i].style.display = "none";
+				}
+			}
+		}
+
+
+
 //220912 Illya
 function changeimg220912_1(){
 	var x = document.getElementById("1z_s").value;

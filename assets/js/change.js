@@ -502,3 +502,30 @@ function changeimg230623_2(){
 	    x.src = 'assets/img/230623/none.png';
 	  }
 }
+
+//240226 Carmine
+function changeimg240226(){
+	var x = document.getElementById("bs_s").value;
+	document.getElementById("bs").src = x;
+	var checkbox = document.getElementById('t_s');
+	var x = document.getElementById('t');
+	  if (checkbox.checked) {
+		x.src = 'assets/img/240226/torn.png';
+	  } else {
+	    x.src = 'assets/img/240226/none.png';
+	  }
+	var checkbox = document.getElementById('b_s');
+	var x = document.getElementById('b');
+	  if (checkbox.checked) {
+		x.src = 'assets/img/240226/ban.png';
+	  } else {
+	    x.src = 'assets/img/240226/none.png';
+	  } 
+	var checkbox = document.getElementById('se_s');
+	var x = document.getElementById('se');
+	  if (checkbox.checked) {
+		x.src = 'assets/img/240226/se.png';
+	  } else {
+	    x.src = 'assets/img/240226/none.png';
+	  } 
+}

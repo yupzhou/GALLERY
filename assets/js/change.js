@@ -529,3 +529,81 @@ function changeimg240226(){
 	    x.src = 'assets/img/240226/none.png';
 	  } 
 }
+
+//240718 Penny
+function changeimg240718_1(){
+	var checkbox = document.getElementById('1p_s');
+	var x = document.getElementById('1p');
+	  if (checkbox.checked) {
+		x.src = 'assets/img/240718/body_p.png';
+	  } else {
+	    x.src = 'assets/img/240718/none.png';
+	  }
+	var checkbox = document.getElementById('1g_s');
+	  var x = document.getElementById('1g');
+		if (checkbox.checked) {
+		  x.src = 'assets/img/240718/glasses.png';
+		} else {
+		  x.src = 'assets/img/240718/none.png';
+		}
+	var x = document.getElementById("1z_s").value;
+	document.getElementById("1z").src = x;
+	var x = document.getElementById("1t_s").value;
+	document.getElementById("1t").src = x;
+	var checkbox = document.getElementById('1r_s');
+	var x = document.getElementById('1r');
+	  if (checkbox.checked) {
+		x.src = 'assets/img/240718/R.png';
+	  } else {
+	    x.src = 'assets/img/240718/none.png';
+	  }
+	  var checkbox = document.getElementById('1s_s');
+	  var x = document.getElementById('1s');
+		if (checkbox.checked) {
+		  x.src = 'assets/img/240718/Sw.png';
+		} else {
+		  x.src = 'assets/img/240718/none.png';
+		}
+}
+
+function changeimg240718_2(){
+	var checkbox = document.getElementById('2g_s');
+	  var x = document.getElementById('2g');
+		if (checkbox.checked) {
+		  x.src = 'assets/img/240718/glasses.png';
+		} else {
+		  x.src = 'assets/img/240718/none.png';
+		}
+	var x = document.getElementById("2z_s").value;
+	document.getElementById("2z").src = x;
+	var x = document.getElementById("2t_s").value;
+	document.getElementById("2t").src = x;
+	var checkbox = document.getElementById('2c_s');
+	var x = document.getElementById('2c');
+	  if (checkbox.checked) {
+		x.src = 'assets/img/240718/Con.png';
+	  } else {
+	    x.src = 'assets/img/240718/none.png';
+	  }
+	var checkbox = document.getElementById('2r_s');
+	var x = document.getElementById('2r');
+	  if (checkbox.checked) {
+		x.src = 'assets/img/240718/R_f.png';
+	  } else {
+	    x.src = 'assets/img/240718/none.png';
+	  }
+	  var checkbox = document.getElementById('2s_s');
+	  var x = document.getElementById('2s');
+		if (checkbox.checked) {
+		  x.src = 'assets/img/240718/Sw_f.png';
+		} else {
+		  x.src = 'assets/img/240718/none.png';
+		}
+	var checkbox = document.getElementById('2sem_s');
+	var x = document.getElementById('2sem');
+	  if (checkbox.checked) {
+		x.src = 'assets/img/240718/sem.png';
+	  } else {
+	    x.src = 'assets/img/240718/none.png';
+	  }
+}
